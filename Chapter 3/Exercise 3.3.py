@@ -10,7 +10,7 @@
 # >= 0.8     B
 # >= 0.7     C
 # >= 0.6     D
-# < 0.6     F
+# < 0.6      F
 
 # Enter score: 0.95
 # A
@@ -44,9 +44,11 @@ try:
         print('C')
     elif grade >= 0.6:
         print('D')
+    elif grade < 0.0:
+        print('Bad score')
+    elif grade >= 0.0:
+        print('F')
     elif grade < 0.6:
         print('F')
-    else :
-        print('Bad score')
 except:
     print('Bad score')
