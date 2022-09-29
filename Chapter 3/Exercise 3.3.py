@@ -52,3 +52,5 @@ try:
         print('F')
 except:
     print('Bad score')
+    
+    # previous version did not account for negative grades, added lines 47 to 50 to detect for grades < 0.0 and >= 0.0 but less than 0.6
