@@ -44,10 +44,10 @@ try:
         print('C')
     elif grade >= 0.6:
         print('D')
-    elif grade < 0.0:
-        print('Bad score')
     elif grade >= 0.0:
         print('F')
+    elif grade < 0.0:
+        print('Bad score')
 except:
     print('Bad score')
     
